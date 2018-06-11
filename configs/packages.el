@@ -30,6 +30,9 @@
                         smart-tab
                         golden-ratio
                         smartparens
+                        ruby-block
+                        ruby-electric
+                        projectile-rails
 
                         ;; mode
                         web-mode
@@ -42,7 +45,7 @@
                         elixir-mode
                         julia-mode
                         julia-repl
-                        
+
                         ;; development tools
                         robe
                         alchemist
