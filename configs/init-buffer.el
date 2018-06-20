@@ -16,6 +16,9 @@
                ("emacs" (or
                          (name . "^\\*scratch\\*$")
                          (name . "^\\*Messages\\*$")))
+	       ("js" (or
+		      (mode . js2-mode)
+		      (mode . rjsx-mode)))
                ("gnus" (or
                         (mode . message-mode)
                         (mode . bbdb-mode)

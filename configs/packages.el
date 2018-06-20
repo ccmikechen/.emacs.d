@@ -49,6 +49,8 @@
                         ;; development tools
                         robe
                         alchemist
+                        docker
+                        kubernetes
 
                         ;; company
                         company

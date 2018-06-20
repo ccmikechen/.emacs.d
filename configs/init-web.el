@@ -2,6 +2,7 @@
 
 ;; web
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
+(add-to-list 'auto-mode-alist '("\\.eex\\'" . web-mode))
 (setq js2-strict-missing-semi-warning nil)
 (setq js2-strict-trailing-comma-warning nil)
 (setq js2-missing-semi-one-line-override nil)
