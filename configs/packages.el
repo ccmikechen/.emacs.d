@@ -19,7 +19,6 @@
 
                         ;; editor
                         ace-window
-                        ;ace-jump-mode
                         avy
                         expand-region
                         neotree
@@ -45,7 +44,8 @@
                         elixir-mode
                         julia-mode
                         julia-repl
-
+			yaml-mode
+			slim-mode
                         ;; development tools
                         robe
                         alchemist

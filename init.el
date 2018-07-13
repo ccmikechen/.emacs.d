@@ -38,6 +38,7 @@
 (require 'init-which-key)
 (require 'init-eshell)
 (require 'init-org)
+(require 'init-drill-instructor)
 
 ;;---------------------------------------
 ;; Editing

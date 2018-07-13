@@ -4,5 +4,6 @@
 (add-to-list 'load-path (expand-file-name "erc-sasl" external-directory))
 (add-to-list 'load-path (expand-file-name "hi-line+.el" external-directory))
 (add-to-list 'load-path (expand-file-name "nand-hdl-mode" external-directory))
+(add-to-list 'load-path (expand-file-name "drill-instructor" external-directory))
 
 (provide 'init-external)
