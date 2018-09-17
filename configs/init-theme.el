@@ -13,4 +13,6 @@
     (set-face-attribute face nil :weight 'normal :underline nil))
   (face-list))
 
+(scroll-bar-mode -1)
+
 (provide 'init-theme)

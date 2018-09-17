@@ -3,7 +3,7 @@
   (add-hook 'ruby-mode-hook 'ruby-block-mode)
   (add-hook 'ruby-mode-hook '(lambda ()
                                (ruby-electric-mode t)))
-  
+  (add-hook 'ruby-mode-hook 'whitespace-cleanup-mode)
   :config
   (setq ruby-insert-encoding-magic-comment nil)
   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode)))

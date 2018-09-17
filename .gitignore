@@ -19,3 +19,7 @@ project-persist/*
 url/*
 org-gcal/*
 request/*
+%backup%*
+install
+speed-type/*
+tutorial/*

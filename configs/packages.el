@@ -46,11 +46,14 @@
                         julia-repl
 			yaml-mode
 			slim-mode
+                        typescript-mode
+
                         ;; development tools
                         robe
                         alchemist
                         docker
                         kubernetes
+			restclient
 
                         ;; company
                         company
