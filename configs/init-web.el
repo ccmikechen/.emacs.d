@@ -16,4 +16,7 @@
 (setq web-mode-markup-indent-offset 2)
 (setq typescript-indent-level 2)
 
+(add-hook 'rjsx-mode-hook 'smartparens-mode)
+(add-hook 'web-mode-hook 'smartparens-mode)
+
 (provide 'init-web)

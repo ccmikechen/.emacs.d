@@ -17,4 +17,9 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
+(defun rn-reload ()
+  (interactive)
+  (shell-command "adb shell input text 'RR'"))
+(global-set-key (kbd "C-c r") 'rn-reload)
+
 (provide 'init-utils)

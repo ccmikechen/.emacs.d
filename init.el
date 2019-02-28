@@ -9,6 +9,8 @@
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
+(load (expand-file-name "~/.roswell/helper.el"))
+
 ;;----------------------------------------------------------------------------
 ;; Lisp files
 ;;----------------------------------------------------------------------------
@@ -72,6 +74,7 @@
 ;; Other
 ;;---------------------------------------
 ; (require 'init-erc)
+(require 'init-plantuml)
 
 ;;---------------------------------------
 ;; Other (need deep setting if you turn it up)
